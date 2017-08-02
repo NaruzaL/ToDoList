@@ -1,5 +1,5 @@
---temp-output:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\C--ToDoList\src\ToDoList\obj\Debug\netcoreapp1.0\
---out:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\C--ToDoList\src\ToDoList\bin\Debug\netcoreapp1.0\ToDoList.dll
+--temp-output:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\obj\Debug\netcoreapp1.0\
+--out:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\bin\Debug\netcoreapp1.0\ToDoList.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -66,8 +66,12 @@
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.DotNet.InternalAbstractions\1.0.0\lib\netstandard1.3\Microsoft.DotNet.InternalAbstractions.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.DotNet.ProjectModel\1.0.0-rc3-003121\lib\netstandard1.6\Microsoft.DotNet.ProjectModel.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.EntityFrameworkCore\1.0.0\lib\netstandard1.3\Microsoft.EntityFrameworkCore.dll
+--reference:C:\Users\epicodus\.nuget\packages\Microsoft.EntityFrameworkCore.Design\1.0.0-preview2-final\lib\netcoreapp1.0\Microsoft.EntityFrameworkCore.Design.dll
+--reference:C:\Users\epicodus\.nuget\packages\Microsoft.EntityFrameworkCore.Design.Core\1.0.0-preview2-final\lib\netstandard1.3\Microsoft.EntityFrameworkCore.Design.Core.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.EntityFrameworkCore.Relational\1.0.0\lib\netstandard1.3\Microsoft.EntityFrameworkCore.Relational.dll
+--reference:C:\Users\epicodus\.nuget\packages\Microsoft.EntityFrameworkCore.Relational.Design\1.0.0\lib\netstandard1.3\Microsoft.EntityFrameworkCore.Relational.Design.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.EntityFrameworkCore.SqlServer\1.0.0\lib\netstandard1.3\Microsoft.EntityFrameworkCore.SqlServer.dll
+--reference:C:\Users\epicodus\.nuget\packages\Microsoft.EntityFrameworkCore.Tools\1.0.0-preview2-final\lib\netcoreapp1.0\dotnet-ef.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.Extensions.Caching.Abstractions\1.0.0\lib\netstandard1.0\Microsoft.Extensions.Caching.Abstractions.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.Extensions.Caching.Memory\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Caching.Memory.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.Extensions.CommandLineUtils\1.0.0\lib\netstandard1.3\Microsoft.Extensions.CommandLineUtils.dll
@@ -207,10 +211,16 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XmlDocument\4.0.1\ref\netstandard1.3\System.Xml.XmlDocument.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XmlSerializer\4.0.11\ref\netstandard1.3\System.Xml.XmlSerializer.dll
---resource:"C:\Users\epicodus\Documents\Visual Studio 2015\Projects\C--ToDoList\src\ToDoList\obj\Debug\netcoreapp1.0\ToDoListdotnet-compile.deps.json",ToDoList.deps.json
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\C--ToDoList\src\ToDoList\Program.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\C--ToDoList\src\ToDoList\Startup.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\C--ToDoList\src\ToDoList\Controllers\HomeController.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\C--ToDoList\src\ToDoList\Controllers\ItemsController.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\C--ToDoList\src\ToDoList\Models\Item.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\C--ToDoList\src\ToDoList\Models\ToDoListContext.cs
+--resource:"C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\obj\Debug\netcoreapp1.0\ToDoListdotnet-compile.deps.json",ToDoList.deps.json
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\Program.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\Startup.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\Controllers\HomeController.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\Controllers\ItemsController.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\Migrations\20170802180736_Initial.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\Migrations\20170802180736_Initial.Designer.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\Migrations\20170802180944_MakeTableNamesPlural.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\Migrations\20170802180944_MakeTableNamesPlural.Designer.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\Migrations\ToDoListContextModelSnapshot.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\Models\Category.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\Models\Item.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\ToDoList\src\ToDoList\Models\ToDoListContext.cs
